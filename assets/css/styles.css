@@ -1,0 +1,202 @@
+/** Colors **/
+/** Primary **/
+/** Neutral **/
+/** Active **/
+/** Break points**/
+/** Responsive **/
+* {
+  font-family: "Red Hat Display", sans-serif;
+}
+
+body {
+  background-image: url("../../assets/images/pattern-background-desktop.svg");
+  background-color: hsl(225deg, 100%, 94%);
+  background-repeat: no-repeat;
+  background-size: 100% 400px;
+  margin: 0;
+  padding: 0;
+}
+@media screen and (max-width: 920px) {
+  body {
+    background-image: url("../../assets/images/pattern-background-mobile.svg");
+    background-size: 100% 350px;
+  }
+}
+@media screen and (max-width: 380px) {
+  body {
+    background-size: 100% 200px;
+  }
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.order-card {
+  background-color: white;
+  width: 450px;
+  height: 697px;
+  box-shadow: 0px 40px 40px -20px rgba(13, 48, 189, 0.151826);
+  border-radius: 20px;
+  text-align: center;
+}
+@media screen and (max-width: 920px) {
+  .order-card {
+    width: 327px;
+    height: 567px;
+  }
+}
+.order-card__image {
+  width: 450px;
+  border-radius: 20px 20px 0px 0px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__image {
+    width: 327px;
+  }
+}
+.order-card__title {
+  font-size: 28px;
+  font-weight: 900;
+  color: hsl(223deg, 47%, 23%);
+  height: 37px;
+  width: 354px;
+  margin: 45px 48px 17px 48px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__title {
+    width: 263px;
+    height: 29px;
+    font-size: 22px;
+    margin: 32px 32px 16px 32px;
+  }
+}
+.order-card__subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  color: hsl(224deg, 23%, 55%);
+  line-height: 26px;
+  width: 354px;
+  margin: 0px 48px 20px 48px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__subtitle {
+    width: 263px;
+    line-height: 25px;
+    font-size: 15px;
+    margin: 0px 32px 24px 32px;
+  }
+}
+.order-card__recap {
+  background-color: hsl(225deg, 100%, 98%);
+  border-radius: 11px;
+  display: flex;
+  align-items: center;
+  margin: 0px 48px 32px 48px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__recap {
+    width: 279px;
+    margin: 0px 24px 24px 24px;
+  }
+}
+.order-card__recap__img {
+  width: 48px;
+  height: 48px;
+  margin: 25px 20px 25px 24px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__recap__img {
+    margin: 17px 20px 16px 16px;
+  }
+}
+.order-card__recap__summary {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 92px;
+  height: 48px;
+  margin: 25px 94px 25px 0px;
+}
+@media screen and (max-width: 920px) {
+  .order-card__recap__summary {
+    font-size: 14px;
+    width: 81px;
+    height: 40px;
+    margin: 21px 50px 21px 0px;
+  }
+}
+.order-card__recap__summary-title {
+  font-weight: 900;
+}
+.order-card__recap__summary-price {
+  font-weight: 500;
+}
+.order-card__recap__button {
+  border: none;
+  background: none;
+  color: hsl(245deg, 75%, 52%);
+}
+.order-card__recap__button:hover {
+  cursor: pointer;
+  text-decoration: none;
+  color: hsl(245deg, 83%, 68%);
+}
+@media screen and (max-width: 920px) {
+  .order-card__recap__button {
+    width: 48px;
+    height: 17px;
+    font-size: 13px;
+    margin: 33px 16px 31px 0px;
+  }
+}
+.order-card__proceed {
+  background-color: hsl(245deg, 75%, 52%);
+  border: none;
+  color: white;
+  width: 354px;
+  height: 50px;
+  box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+  padding: 15px 102px 15px 102px;
+  margin: 0px 48px 32px 48px;
+  border-radius: 11px;
+}
+.order-card__proceed:hover {
+  background-color: hsl(245deg, 83%, 68%);
+  cursor: pointer;
+}
+@media screen and (max-width: 920px) {
+  .order-card__proceed {
+    width: 279px;
+    height: 50px;
+    padding: 15px 64px 15px 64px;
+    margin: 0px 24px 24px 24px;
+  }
+}
+.order-card__proceed > span {
+  width: 150px;
+  height: 20px;
+  white-space: nowrap;
+  font-size: 15px;
+}
+.order-card__cancel {
+  font-size: 15px;
+  width: 900;
+  color: hsl(224deg, 23%, 55%);
+  text-decoration: none;
+  width: 96px;
+  margin: 0px 177px 48px 177px;
+}
+.order-card__cancel:hover {
+  color: hsl(223deg, 47%, 23%);
+}
+@media screen and (max-width: 920px) {
+  .order-card__cancel {
+    margin: 0px 115px 32px 115px;
+  }
+}
+
+/*# sourceMappingURL=styles.css.map */

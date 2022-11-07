@@ -1,0 +1,14 @@
+{
+  "name": "order-summary-component",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch ./sass/styles.scss:assets/css/styles.css"
+  }, 
+  "repository": "https://github.com/neilk17/order-summary-component.git",
+  "author": "neilk17 <kanakianeil@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "sass": "^1.56.0"
+  }
+}

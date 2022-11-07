@@ -1,11 +1,7 @@
+@import "./utils/variables";
+
 :root {
-    --pale-blue: hsl(225, 100%, 94%);
-    --bright-blue: hsl(245, 75%, 52%);
-    --very-pale-blue: hsl(225, 100%, 98%);
-    --desaturated-blue: hsl(224, 23%, 55%);
-    --dark-blue: hsl(223, 47%, 23%);
     font-size: 16px;
-    font-family: 'Red Hat Display', sans-serif;
 }
 .attribution { 
     font-size: 11px; 
@@ -13,14 +9,6 @@
 }
 .attribution a { 
     color: hsl(229, 27%, 54%); 
-}
-body {
-    align-items: center;
-    background-color: var(--pale-blue);
-    display: flex;
-    flex-direction: column;
-    margin: 0;
-    padding: 0;
 }
 .container {
     background-color: white;
